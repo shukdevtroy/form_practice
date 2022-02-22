@@ -1,0 +1,98 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+a{
+	text-decoration: none;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+}
+.wrapper{
+	width: 100%;
+padding: 100px 0px;
+background: linear-gradient(to right, #00B4D8,#A2D2FF);
+}
+.form-box{
+	width: 1000px;
+	margin: auto;
+	border-radius: 8px;
+background-color: white;
+}
+.img-fluid{
+	max-width: 100%;
+	height: auto;
+}
+.form-row{
+	display: flex;
+}
+.form-left,.form-right{
+	flex-basis: 50%;
+}
+.right-content{
+	padding: 40px 50px;
+}
+.right-content h2{
+	text-transform: uppercase;
+	font-weight: 600;
+	margin-bottom: 30px;
+}
+.form-group{
+	margin: 16px 0px;
+	display: block;
+	width: 100%;
+	font-size: 14px;
+}
+.form-control{
+	padding: 14px 10px;
+	width: 93.5%;
+	font-size: 14px;
+}
+.d-flex{
+	display: flex;
+	justify-content: space-between;
+}
+.f-b-42{
+	flex-basis: 42%;
+}
+.form-control:focus{
+	outline-color: skyblue;
+}
+.form-control:focus::placeholder{
+	color: skyblue;
+}
+.my-2{
+	margin: 32px 0px;
+}
+.form-group span{
+	color: black;
+	margin-right: 32px;
+}
+.form-group label{
+	margin-right: 16px;
+}
+.f-b-48{
+	flex-basis: 48%;
+}
+.btn{
+	padding: 16px 24px;
+	border: none;
+	color: black;
+	text-transform: uppercase;
+	border-radius: 4px;
+	margin-left: 8px;
+}
+.text-right{
+	text-align: right;
+}
+.white{
+	background-color: white;
+	box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+}
+.yellow{
+	background-color: yellow;
+	box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+}
+.btn:hover{
+	background-color: skyblue;
+}
